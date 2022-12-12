@@ -1,0 +1,30 @@
+.main {
+  padding: 36px;
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+}
+
+.form-input {
+  font: inherit;
+  border: 1px solid #D5D4D8;
+  border-radius: 5px;
+  text-indent: 5px;
+}
+
+.form-button {
+  grid-column: 1 / -1;
+  font: inherit;
+  color: white;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.meme-image {
+  max-width: 100%;
+}
